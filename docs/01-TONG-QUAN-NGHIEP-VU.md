@@ -14,7 +14,7 @@
 | Loại sản phẩm | Web quản lý + cổng phụ huynh, học viên trên điện thoại |
 | Ý tưởng gốc | 4.1 · Quản lý trung tâm ngoại ngữ / dạy thêm (`ZDOCS/02-KE-HOACH/DANH-SACH-Y-TUONG.md`) |
 | Người phụ trách | |
-| Trạng thái | Mới tạo từ khuôn mẫu |
+| Trạng thái | Có tài liệu nghiệp vụ (SRS, use case, kịch bản demo, kịch bản kiểm thử), chưa code |
 
 ## 2. Vấn đề của khách hàng
 
@@ -46,6 +46,8 @@
 | Area | Chức năng | Màn hình (route FE dự kiến) | Ưu tiên |
 | :--- | :--- | :--- | :---: |
 | `System` | Đăng nhập, tài khoản, vai trò, cài đặt | Có sẵn | — |
+| `Edu` | Tổng quan trong ngày | `/dashboard` | P1 |
+| `Edu` | Giáo viên, phòng học, ngày nghỉ | `/teachers`, `/rooms` | P1 |
 | `Edu` | Khóa học, lớp, lịch học | `/courses`, `/classes` | P1 |
 | `Edu` | Học viên, ghi danh | `/students` | P1 |
 | `Edu` | Điểm danh | `/classes/[id]/attendance` | P1 |
